@@ -1,0 +1,152 @@
+.loginContainer {
+    width:100vw ;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(231, 231, 231);
+   
+
+}
+.loginBox {
+    width: 25vw;
+    height: 73vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgb(299, 299, 299);
+    margin-top: 4vmax;
+}
+
+.loginBox > h4 {
+    text-align: center;
+    font: 400 2vmax "Franklin Gothic Medium";
+    margin: 2vmax;
+}
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 70%;
+    transition: all 0.5s;  
+}
+.loginForm > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 2px;
+}
+.loginForm >div >input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: content-box;
+    border: 1px solid rgba(0, 0, 0, 0.265);
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+}
+
+.loginForm > div >svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.password-Togle-Icon{
+    color: rgba(0, 0, 0, 0.623);
+    position: absolute;
+    right: 40vmax;
+    z-index: 1000;
+    box-sizing: border-box;
+    padding-right: 1vmax;
+    display: flex;
+   
+
+}
+.password-Togle-Icon > svg {
+    font-size: 1.4vmax;
+    transform: translateX(1vmax);
+    align-self: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+    
+  
+}
+.password-Togle-Icon > svg:hover {
+    color:rgba(0, 0, 0, 0.899);
+}
+
+.loginForm> a{
+    text-decoration: none;
+    align-self: center;
+    transition: all 0.5s;
+    font: 500 0.9vmax "Gill Sans";
+    color: rgba(0, 0, 0, 0.651);
+    margin: .5vmax;
+    
+   
+}
+.loginForm > a >b{
+    cursor: pointer;
+}
+.loginForm> a:hover{
+    color: black;
+}
+.loginBtn {
+    border: none;
+    background-color: #1976d2;
+    color: white;
+    font: 300 0.9vmax 'Roboto';
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+
+}
+
+@media screen and (max-width: 600px) {
+    .loginBox{
+        width: 100vw;
+        height: 95vh;
+        margin-top: 10vmax;
+    }
+    .loginBox >h4 {
+        font: 500 5vmax "Roboto";
+        margin-top: 3vmax;
+    }
+    .loginForm{
+        padding: 5vmax;
+    }
+    .loginForm >div >input{
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax cursive;
+    }
+    .loginForm > div >svg {
+        font-size: 2.8vmax;
+    }
+    .password-Togle-Icon > svg {
+        position: absolute;
+        right: -32vmax;
+    }
+    .password-Togle-Icon > svg {
+        font-size: 2.8vmax;
+    }
+    .loginForm> a{
+        font: 300 2.8vmax 'Roboto';
+    }
+    .loginBtn {
+        font: 300 2vmax 'Roboto';
+        padding: 1.8vmax;
+    }
+    
+}

@@ -1,0 +1,27 @@
+.homecontainer {
+    background-color: rgb(208, 223, 236);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.heroSection > svg {
+    font-size: 10vmax;
+    color: #1976d2;
+}
+.heroSection > h4 {
+    font-weight: 300;
+    font-size: 4vmax;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1976d2;
+}

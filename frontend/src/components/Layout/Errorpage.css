@@ -1,0 +1,42 @@
+.notFoundcontainer {
+    background-color: rgb(208, 223, 236);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notFoundSection {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.notFoundSection > svg {
+    font-size: 10vmax;
+    color: #e41f1f;
+}
+.notFoundSection > h4 {
+    font-weight: 300;
+    font-size: 4vmax;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+.notFoundSection > button {
+    outline: none;
+    background-color:#1976d2 ;
+    color: white;
+    border: none;
+    padding: 1vmax 2vmax;
+    border-radius: 5px;
+    margin: 1vmax;
+    font: 600 2vmax 'Roboto';
+    cursor: pointer;
+
+}
+.notFoundSection > button:hover {
+    background-color: #154472;
+}

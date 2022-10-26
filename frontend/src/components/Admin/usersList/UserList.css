@@ -1,0 +1,54 @@
+.UsersListContainer{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.158);
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin-top: 5vmax;
+    padding: 2vmax;
+}
+#UsersListHeading {
+    font: 400 2rem 'Roboto';
+    padding: 0.5vmax;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.637);
+    transition: all 0.5s;
+    text-align: center;
+}
+.UsersListTable{
+    background-color: #ffff;
+    border: none !important;
+
+}
+.UsersListTable div {
+    font: 300 1vmax 'Roboto';
+    color: rgba(0, 0, 0, 0.637);
+    border: none !important;
+
+}
+.UsersListTable button,
+.UsersListTable a {
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+}
+.UsersListTable a:hover {
+    color:#1976d2;
+}
+.UsersListTable button:hover {
+    color:  #1976d2;
+}
+.MuiDataGrid-columnHeader div {
+    color: rgb(15, 15, 15);
+    /* font: 500 1.1vmax var(--Roboto-font-family) !important; */
+}
+
+@media screen and (max-width: 600px) {
+    .UsersListTable div {
+        font: 300 4vmax 'Roboto';
+    }
+    .UsersListContainer{
+        margin-top: 10vmax;
+    }
+}

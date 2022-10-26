@@ -1,0 +1,27 @@
+.sucesscontainer {
+    background-color: rgb(208, 223, 236);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SuccessSection {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.SuccessSection > svg {
+    font-size: 10vmax;
+    color: #86e186;
+}
+.SuccessSection > h4 {
+    font-weight: 300;
+    font-size: 4vmax;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
